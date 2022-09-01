@@ -1,9 +1,10 @@
-import './App.css';
-
+import "./App.css";
+import '../ui/landing/landing'
+import Landing from "../ui/landing/landing";
 function App() {
   return (
     <div className="App">
-      <h1> welcome </h1>
+      <Landing />
     </div>
   );
 }
