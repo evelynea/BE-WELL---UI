@@ -1,7 +1,8 @@
 import "./landing.css";
 import communicable from "../../images/communicable  diseae 1.png";
 import check from "../../images/checkup.png";
-import pills from "../../images/pills.png"
+import pills from "../../images/pills.png";
+import footer from "../../images/footer.png";
 import { IoIosArrowForward } from "react-icons/io";
 import { FaFacebookF } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io";
@@ -11,12 +12,14 @@ import { FiSearch } from "react-icons/fi";
 import { IconButton } from "@material-ui/core";
 import {RiArrowLeftSLine} from "react-icons/ri";
 import {RiArrowRightSLine} from "react-icons/ri"
+import "../footer/footer";
+import Footer from "../footer/footer";
 
 function Landing() {
   return (
     <div className="container">
       <div className="navbar">
-        <p>Do You Have An Idea For Be Well To Cover? Submit It Here!</p>
+        <a href="#">Do You Have An Idea For Be Well To Cover? Submit It Here!</a>
       </div>
       <div className="heading">
         <div className="header">
@@ -147,8 +150,17 @@ function Landing() {
         </IconButton>
         </div>
       </div>
+
+      {/* Footer */}
+
       <div className="navbar nav2">
-        <p>Do You Have An Idea For Be Well To Cover? Submit It Here!</p>
+        <a href="#">Do You Have An Idea For Be Well To Cover? Submit It Here!</a>
+      </div>
+      <div className="footer-image">
+
+      </div>
+      <div className="footer1">
+        <Footer />
       </div>
     </div>
   );
