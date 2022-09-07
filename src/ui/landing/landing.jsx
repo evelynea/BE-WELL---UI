@@ -13,6 +13,7 @@ import {RiArrowLeftSLine} from "react-icons/ri";
 import {RiArrowRightSLine} from "react-icons/ri"
 
 function Landing() {
+  
   return (
     <div className="container">
       <div className="navbar">
