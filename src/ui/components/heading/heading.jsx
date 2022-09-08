@@ -7,7 +7,8 @@ import { BsTwitter } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { FiSearch } from "react-icons/fi";
 import { IconButton } from "@material-ui/core";
-export default function Heading() {
+export default function Heading(props) {
+  const image=props.image;
   return (
   <div>
     <div className="heading">
@@ -17,7 +18,10 @@ export default function Heading() {
         <IoIosArrowForward className="iconheader" />
       </IconButton>
     </div>
-    <div className="image-container"></div>
+    
+    <div className="image-container" style={{backgroundImage:`url(${props.image})`}}>
+      
+    </div>
     <div className="img-block">
       <h2>Most Popular</h2>
       <ul>

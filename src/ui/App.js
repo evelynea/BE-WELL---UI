@@ -1,11 +1,15 @@
 import "./App.css";
+import { Route, Routes } from "react-router-dom";
 import '../ui/landing/landing'
 import Landing from "../ui/landing/landing";
+import Idea from "./components/idea/idea";
+
 function App() {
   return (
-    <div className="App">
-      <Landing />
-    </div>
+   <Routes>
+    <Route path="/" element={ <Landing/> }/>
+    <Route path="/idea" element={ <Idea/> }/>
+   </Routes>
   );
 }
 
