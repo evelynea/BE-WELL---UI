@@ -5,8 +5,8 @@ import News from "./news/news";
 function App() {
   return (
     <div className="App">
-      <Landing />
-      {/* <News/> */}
+      {/* <Landing /> */}
+      <News/>
     </div>
   );
 }

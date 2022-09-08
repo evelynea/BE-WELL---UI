@@ -1,0 +1,29 @@
+.news-content{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.news{
+    padding: 20px;
+    /* background-color: blue; */
+}
+.news h3, 
+.news p{
+    width: 600px;
+    margin: 0 auto;
+}
+.main-img{
+    width: 934px;
+    height: 468px;
+}
+.news p{
+    color: #000000B2;
+}
+.logoUN{
+    width: 118px;
+    height: 118px;
+    border-radius: 50%;
+}
+
+.ads{
+    background-color: red;
+}
