@@ -7,11 +7,13 @@ import News from "./news/news";
 
 function App() {
   return (
+
    <Routes>
     <Route path="/" element={ <Landing/> }/>
     <Route path="/idea" element={ <Idea/> }/>
     <Route path ="/news" element = {<News/>}/>
    </Routes>
+
 
 
 
