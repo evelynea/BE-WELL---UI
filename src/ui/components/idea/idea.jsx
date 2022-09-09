@@ -1,11 +1,12 @@
 import React from "react";
 import "./idea.css";
+import "../advertisement/advert"
 import Navbar from "../navbar/navbar";
 import Heading from "../heading/heading";
 import ideaHeader from "../../../images/ideaHeader.png";
-import adv1 from "../../../images/advertisment 1.png";
-import adv2 from "../../../images/advertisment 2.png";
-import adv3 from "../../../images/advertisment 3.png";
+import Advert from "../advertisement/advert";
+import Footer from "../footer/footer";
+
 
 export default function Idea() {
   return (
@@ -40,13 +41,33 @@ export default function Idea() {
           <p className="para4">Thanks a lot for your time,</p>
 
           <p className="para5">Be Well newsroom</p>
+          <form action="#" className="form">
+          <label>* Title</label>
+          <input type= "text" name="title"/>
+          <label>* Description (Edit Summary)</label>
+          <textarea type= "text" name="description"/>
+          <label>* Name</label>
+          <input type= "text" name="name"/>
+          <label>* Email</label>
+          <input type= "email" name="email"/>
+          <label>* Whatsapp Number</label>
+          <input type= "number" name="number"/>
+          <button type="submit" value="Send">Send</button>
+          </form>
+        
         </div>
-        <div className="advertisement">
-           <img src={adv1}/>
-           <img src={adv2}/>
-           <img src={adv3}/>
+        <div className="adv-part">
+          <Advert/>
         </div>
+       
+       
       </div>
+      <div>
+          <Navbar/>
+        </div>
+        <div>
+          <Footer/>
+        </div>
     </div>
   );
 }
