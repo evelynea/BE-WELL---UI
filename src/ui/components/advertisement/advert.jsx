@@ -7,7 +7,7 @@ export default function Advert() {
   return (
     <div className='advertisement'>
            <h2>Advertisement</h2>
-           <img src={adv3} alt="" id="ad1"/>
+           <img src={adv3} alt="adv" id="ad1"/>
            <img src={adv1} alt="" id="ad2"/>
            <img src={adv2} alt="" id="ad3"/>
     </div>
