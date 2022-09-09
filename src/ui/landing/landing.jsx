@@ -1,6 +1,7 @@
 import "./landing.css";
 import "../components/navbar/navbar";
 import "../components/heading/heading";
+import { Link } from "react-router-dom";
 import headerimage from "../../images/covid.png";
 import communicable from "../../images/communicable  diseae 1.png";
 import check from "../../images/checkup.png";
@@ -31,7 +32,7 @@ function Landing() {
         <h2>FIGHT COMMUNICABLE DISEASES</h2>
         <div className="content-description">
           <div>
-            <img src={communicable} />
+            <img src={communicable} alt="" />
           </div>
           <div className="para1">
             <p>
@@ -42,7 +43,7 @@ function Landing() {
               assistenter. Geska. SEO. Dedås. Elin Nyberg. UX. Dobyfusk. Prost.
               Heteromatisk. Gigekonomi. Britt Persson. Pybessade.
             </p>
-            <button type="submit">Know More</button>
+            <button type="submit"><Link to="/news">Know More</Link></button>
           </div>
         </div>
       </div>
@@ -62,10 +63,10 @@ function Landing() {
               assistenter. Geska. SEO. Dedås. Elin Nyberg. UX. Dobyfusk. Prost.
               Heteromatisk. Gigekonomi. Britt Persson. Pybessade.
             </p>
-            <button type="submit">Know More</button>
+            <button type="submit"><Link to="/news">Know More</Link></button>
           </div>
           <div>
-            <img src={check} />
+            <img src={check} alt=""/>
           </div>
         </div>
       </div>
@@ -77,7 +78,7 @@ function Landing() {
         </h2>
         <div className="content-description conte3">
           <div>
-            <img src={pills} />
+            <img src={pills} alt=""/>
           </div>
           <div className="para1">
             <p>
@@ -88,7 +89,7 @@ function Landing() {
               assistenter. Geska. SEO. Dedås. Elin Nyberg. UX. Dobyfusk. Prost.
               Heteromatisk. Gigekonomi. Britt Persson. Pybessade.
             </p>
-            <button type="submit">Know More</button>
+            <button type="submit"><Link to="/news">Know More</Link></button>
           </div>
         </div>
         <div className="arrows">
