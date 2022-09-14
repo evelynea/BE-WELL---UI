@@ -12,6 +12,11 @@ import { FaFacebookF } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io";
 import { BsTwitter } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
+import Footer from "../components/footer/footer";
+// import adv1 from "../../../images/advertisment 1.png";
+
+import adv2 from "../../images/advertisment 2.png";
+import adv3 from "../../images/advertisment 3.png";
 
 export default function News() {
     return (
@@ -107,9 +112,20 @@ export default function News() {
                     
                 </div>
                 <div className="ads">
-                    ads
+                    {/* <img src={adv1} alt="" /> */}
+                    <img src={adv2} alt="" />
+                    <img src={adv3} alt="" />
+                    <img src={adv2} alt="" />
+                    <img src={adv3} alt="" />
+                    <img src={adv2} alt="" />
+                    <img src={adv3} alt="" />
+                    <img src={adv3} alt="" />
+                    
+                    
                 </div>
             </div>
+            <Navbar/>
+            <Footer/>
         </>
     )
 }

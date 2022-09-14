@@ -1,6 +1,6 @@
 .news-content{
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 3.5fr 0.5fr;
 }
 .news{
     padding: 20px;
@@ -56,7 +56,8 @@
 }
 
 .ads{
-    background-color: red;
+    background-color: #b1d191;
+    
 }
 
 @media (max-width:984px){

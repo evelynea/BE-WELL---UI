@@ -15,7 +15,6 @@ import Navbar from "../components/navbar/navbar";
 import Heading from "../components/heading/heading";
 
 function Landing() {
-  
   return (
     <div className="container">
       <div>
@@ -32,7 +31,7 @@ function Landing() {
         <h2>FIGHT COMMUNICABLE DISEASES</h2>
         <div className="content-description">
           <div>
-            <img src={communicable} alt="" />
+            <img src={communicable} />
           </div>
           <div className="para1">
             <p>

@@ -24,5 +24,11 @@
   width: 100%;
   height: 505px;
  }
+
+ @media (max-width: 1000px){
+  .advertisement{
+    display: none;
+  }
+ }
   
  
