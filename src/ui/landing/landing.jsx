@@ -42,7 +42,9 @@ function Landing() {
               assistenter. Geska. SEO. Dedås. Elin Nyberg. UX. Dobyfusk. Prost.
               Heteromatisk. Gigekonomi. Britt Persson. Pybessade.
             </p>
-            <button type="submit"><Link to="/news">Know More</Link></button>
+            <button type="submit">
+              <Link to="/news">Know More</Link>
+            </button>
           </div>
         </div>
       </div>
@@ -62,10 +64,12 @@ function Landing() {
               assistenter. Geska. SEO. Dedås. Elin Nyberg. UX. Dobyfusk. Prost.
               Heteromatisk. Gigekonomi. Britt Persson. Pybessade.
             </p>
-            <button type="submit"><Link to="/news">Know More</Link></button>
+            <button type="submit">
+              <Link to="/news">Know More</Link>
+            </button>
           </div>
           <div>
-            <img src={check} alt=""/>
+            <img src={check} alt="" />
           </div>
         </div>
       </div>
@@ -77,7 +81,7 @@ function Landing() {
         </h2>
         <div className="content-description conte3">
           <div>
-            <img src={pills} alt=""/>
+            <img src={pills} alt="" />
           </div>
           <div className="para1">
             <p>
@@ -88,7 +92,9 @@ function Landing() {
               assistenter. Geska. SEO. Dedås. Elin Nyberg. UX. Dobyfusk. Prost.
               Heteromatisk. Gigekonomi. Britt Persson. Pybessade.
             </p>
-            <button type="submit"><Link to="/news">Know More</Link></button>
+            <button type="submit">
+              <Link to="/news">Know More</Link>
+            </button>
           </div>
         </div>
         <div className="arrows">
