@@ -12,6 +12,8 @@ import { FaFacebookF } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io";
 import { BsTwitter } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
+import Advert from "../components/advertisement/advert";
+import Footer from "../components/footer/footer";
 
 export default function News() {
     return (
@@ -103,13 +105,14 @@ export default function News() {
                         </IconButton>
                     </div>
                     <h3>comment below on the article</h3>
-
-                    
+                    <textarea type="text" name="description" />
                 </div>
                 <div className="ads">
-                    ads
+                    <Advert />
                 </div>
             </div>
+            <Navbar />
+            <Footer />
         </>
     )
 }
