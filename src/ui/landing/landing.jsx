@@ -43,7 +43,7 @@ function Landing() {
               Heteromatisk. Gigekonomi. Britt Persson. Pybessade.
             </p>
             <button type="submit">
-              <Link to="/news">Know More</Link>
+              <Link to="/news" id="li">Know More</Link>
             </button>
           </div>
         </div>
@@ -65,7 +65,7 @@ function Landing() {
               Heteromatisk. Gigekonomi. Britt Persson. Pybessade.
             </p>
             <button type="submit">
-              <Link to="/news">Know More</Link>
+              <Link to="/news" id="li">Know More</Link>
             </button>
           </div>
           <div>
@@ -93,7 +93,7 @@ function Landing() {
               Heteromatisk. Gigekonomi. Britt Persson. Pybessade.
             </p>
             <button type="submit">
-              <Link to="/news">Know More</Link>
+              <Link to="/news" id="li">Know More</Link>
             </button>
           </div>
         </div>

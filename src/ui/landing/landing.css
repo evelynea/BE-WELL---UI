@@ -197,6 +197,12 @@ hr{
   justify-content: center;
   margin-left: 25%;
 }
+#li{
+  text-decoration: none;
+}
+.para1 button:hover{
+  background-color: darksalmon;
+}
 /*End Of Content Description*/
 
 .nav2{

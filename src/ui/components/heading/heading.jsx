@@ -75,7 +75,7 @@ export default function Heading(props) {
       <IconButton>
         <FiSearch />
       </IconButton>
-      <input type="text" placeholder="Type what you’re looking for" />
+      <input type="text" placeholder="Type what you’re looking for"/>
     </div>
   </div>
   </div>
