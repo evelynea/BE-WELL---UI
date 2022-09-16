@@ -7,7 +7,6 @@ import injection2 from "../../images/injection2.jpg";
 import injection3 from "../../images/injection3.jpg";
 import Navbar from "../components/navbar/navbar";
 import Heading from "../components/heading/heading";
-<<<<<<< HEAD
 import { IconButton } from "@material-ui/core";
 import { FaFacebookF } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io";
@@ -117,7 +116,6 @@ export default function News() {
         </>
     )
 }
-=======
 import Footer from "../components/footer/footer";
 import {BsDot} from "react-icons/bs";
 import {IoIosArrowDropdownCircle} from "react-icons/io"
@@ -283,4 +281,3 @@ export default function News() {
     </>
   );
 }
->>>>>>> 5f5462c500551852b7dc0e1dc1db627f828a8453
