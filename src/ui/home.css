@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container-2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+}
+.bulle{
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.bulle h1{
+    margin: 20px;
+}
+hr{
+    width: 81%;
+}
+.ad{
+    width: 20%;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+@media (max-width: 1000px){
+    .container-2{
+        flex-direction: column;
+    }
+    .bulle{
+        width: 100%;
+    }
+    .bulle h1{
+        margin-left: 60px;
+    }
+}
