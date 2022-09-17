@@ -31,7 +31,7 @@ function Landing() {
         <h2>FIGHT COMMUNICABLE DISEASES</h2>
         <div className="content-description">
           <div>
-            <img src={communicable} />
+            <img src={communicable} alt="communication"/>
           </div>
           <div className="para1">
             <p>
