@@ -10,7 +10,7 @@ import { IconButton } from "@material-ui/core";
 import {AiOutlineMenu} from "react-icons/ai"
 import { Link } from 'react-router-dom';
 export default function Heading(props) {
-  // const image=props.image;
+  
   return (
   <div>
     <div className="heading">

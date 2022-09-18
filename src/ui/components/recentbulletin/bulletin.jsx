@@ -4,7 +4,7 @@ import globalhealth from "../../../images/globalhealth.png";
 import health from "../../../images/healthcare.png"
 import vaccine from "../../../images/vaccine.png"
 export default function Bulletin(props) {
-    // const buImage=props.buImage;
+    
   return (
     <div>
         <div className="bu-container">

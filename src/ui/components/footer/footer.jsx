@@ -33,14 +33,14 @@ export default function Footer() {
       </div>
       <div className="footerPart-2">
         <h2>Information</h2>
-        <a href="privacy">About Us</a>
-        <a href="privacy">Search More</a>
+        <a href="/news">About Us</a>
+        <a href="/news">Search More</a>
       </div>
       <div className="footerPart-3">
         <h2>Helpful Link</h2>
-        <a href="privacy">Support</a>
-        <a href="privacy">Terms and Condition</a>
-        <a href="privacy">Privacy</a>
+        <a href="/news">Support</a>
+        <a href="/news">Terms and Condition</a>
+        <a href="/news">Privacy</a>
       </div>
       <div className="footerPart-4">
         <h2> Please Subscribe</h2>
